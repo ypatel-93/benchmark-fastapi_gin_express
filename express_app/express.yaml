@@ -1,0 +1,9 @@
+concurrency: 6
+base: 'http://localhost'
+iterations: 100000
+
+plan:
+  - name: Express Fetch
+    request:
+      url: 'http://localhost:8003/test/'
+

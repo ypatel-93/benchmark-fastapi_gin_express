@@ -1,0 +1,9 @@
+concurrency: 6
+base: 'http://localhost'
+iterations: 100000
+
+plan:
+  - name: Gin Fetch
+    request:
+      url: 'http://localhost:8002/test/'
+
