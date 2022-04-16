@@ -3,7 +3,11 @@ package main
 import "github.com/gin-gonic/gin"
 
 func main() {
-	r := gin.Default()
+	r := gin.New()
+	//r.Use(
+	//	gin.LoggerWithWriter(gin.DefaultWriter,  "/dev/null"),
+	//	gin.Recovery(),
+	//)
 	r.GET("/test/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"status": 200,
