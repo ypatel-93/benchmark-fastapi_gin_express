@@ -1,2 +1,2 @@
-fastapi_/.venv/*
+fastapi_app/.venv/*
 express_app/node_modules/*
