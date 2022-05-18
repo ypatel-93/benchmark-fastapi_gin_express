@@ -1,0 +1,8 @@
+concurrency: 6
+base: 'http://localhost'
+iterations: 100000
+
+plan:
+  - name: Blacksheep Fetch
+    request:
+      url: 'http://localhost:44777/test/'
