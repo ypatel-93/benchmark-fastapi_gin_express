@@ -3,8 +3,16 @@
 echo "Setting up FastAPI"
 python3 -m venv fastapi_app/.venv
 echo "Install FastAPI and Uvicorn"
-fastapi_app/.venv/bin/pip install fastapi uvicorn
+fastapi_app/.venv/bin/pip install -r fastapi_app/requirements.txt
 echo "FastAPI setup success"
+
+echo ""
+
+echo "Setting up BlackSheep"
+python3 -m venv blacksheep_app/.venv
+echo "Install BlackSheep and Uvicorn"
+blacksheep_app/.venv/bin/pip install -r blacksheep_app/requirements.txt
+echo "BlackSheep setup success"
 
 echo ""
 

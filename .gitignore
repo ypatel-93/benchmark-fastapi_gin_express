@@ -1,2 +1,4 @@
+__pycache__
 fastapi_app/.venv/*
+blacksheep_app/.venv/*
 express_app/node_modules/*
